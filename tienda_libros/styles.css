@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: #fdfd96;
+}
+
+header{
+    background-color: #d1052a;
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Rubik Doodle Shadow', monospace, sans-serif;
+    color: white;
+}
+
+
+img{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black ;
+    
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    width: 250px;
+    height: 420px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.60);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.botones{
+    margin-top: 20px;
+}
+
+div > button{
+    display: block;
+    margin: 8px auto;
+    width: 100px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #69cd68;
+    font-weight: bold;
+}
+
+nav ul, a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: right;
+    margin-top: -30px;
+}
+
+li{
+    display: flex;
+    border: solid 2px;
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+    background-color: #005187;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+a{  
+    color: white;
+
+}
+
+button{
+    transition: background .3s ease-in-out;
+}
+
+button:hover{
+    background-color: #4cad4c;
+}
