@@ -11,13 +11,16 @@ body{
 }
 
 header{
-    background-color: #d1052a;
+    background-color: #840007;
     padding: 30px;
 }
 
 h1{
+    font-size: 50px;
+    text-align: center;
     font-family: 'Rubik Doodle Shadow', monospace, sans-serif;
     color: white;
+    margin-bottom: 10px;
 }
 
 
@@ -47,6 +50,13 @@ img{
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
+    transition: background-color,border,border-radius .3s ease-in-out;
+}
+
+.card:hover{
+    background-color: #efefef;
+    border: 2px solid black;
+    border-radius: 0px;
 }
 
 h2{
@@ -68,28 +78,16 @@ div > button{
     font-weight: bold;
 }
 
-nav ul, a{
-    text-decoration: none;
-    list-style-type: none;
-}
 
-
-nav{
-    display: flex;
-    justify-content: right;
-    margin-top: -30px;
-}
 
 li{
-    display: flex;
     border: solid 2px;
     border-radius: 20px;
-    width: 160px;
-    height: 60px;
-    background-color: #005187;
+    width: 120px;
+    height: 40px;
+    background-color: #ad7e94;
     color: white;
-    align-items: center;
-    justify-content: center;
+    transition: background-color .2s ease-in-out;
 }
 
 a{  
@@ -104,3 +102,37 @@ button{
 button:hover{
     background-color: #4cad4c;
 }
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0;
+    
+}
+
+
+nav li{
+    display: inline-block;
+    align-items: right;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+li:hover{
+    background-color: #8f6277;
+    color: #000;
+}
+
+li:hover > a{
+    color: #000;
+    font-weight: bold;
+}
+
